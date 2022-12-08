@@ -24,6 +24,8 @@ function onClickMenuItem(element) {
 onHoverMenuItem(defaultElement);
 function onOutMenuItem(element) {
   onHoverMenuItem(defaultElement);
+  const colorHover = $('.menu__item--selected');
+  colorHover.style.color = '#1E1E1E';
 }
 
 function onHoverMenuItem(element) {
@@ -31,7 +33,6 @@ function onHoverMenuItem(element) {
   const itemRect = element.getBoundingClientRect();
   hover.style.left =  itemRect.left - padding + margin + "px";
   hover.style.width = itemRect.width - padding + "px";
-  // $$('.menu__item').forEach(el => {
-  //   el.style.color = 'rgb(31, 33, 42)';
-  // });
+  const colorHover = $('.menu__item--selected');
+  colorHover.style.color = '#fff';
 }
