@@ -1,9 +1,9 @@
 @import "_function.sass"
 @import "_reset.sass"
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Oswald:wght@400;600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Source+Sans+Pro:wght@300;400&display=swap')
 
 $tt: 'Oswald', sans-serif
-$t: 'Inter', sans-serif
+$t: 'Source Sans Pro', sans-serif
 
 html
 	font-size: calc-between-width(1600, 16, 1920, 19.2)
@@ -32,7 +32,7 @@ body
 
 .header
 	position: relative
-	padding: 20px 40px 30px 40px
+	padding: rem(20) rem(40) rem(30) rem(40)
 	width: 100%
 	font-weight: 600
 	font-family: $tt
@@ -49,23 +49,23 @@ body
 	color: #fff
 
 .menu
-	margin: 17px 0 0 0
-	padding: 5px
+	margin-top: rem(17)
+	padding: rem(5)
 	display: inline-flex
-	font-size: 18px
-	line-height: 36px
+	font-size: rem(18)
+	line-height: rem(36)
 	&__hover
-		padding: 0 30px
-		height: 30px
+		padding: rem(0) rem(30)
+		height: rem(30)
 		background-color: #fff
 		position: absolute
-		width: 2px
+		width: rem(2)
 		transition: all 0.2s ease-out
 		box-sizing: border-box
-		border-radius: 5px
+		border-radius: rem(5)
 	&__item
-		padding: 0 30px
-		height: 30px
+		padding: rem(0) rem(30)
+		height: rem(30)
 		display: inline-flex
 		align-items: center
 		z-index: 2
@@ -73,90 +73,89 @@ body
 		transition: all 0.3s ease 0s
 		&:hover
 			color: #1E1E1E
-			border-radius: 5px
+			border-radius: rem(5)
 			cursor: pointer
 
 .header__logo
-	font-size: 26px
+	font-size: rem(26)
 	font-weight: 700
 	pointer-events: none
 	p
-		padding: 16px 0 0 0
+		padding-top: rem(16)
 		display: inline-block
 	img
-		margin: 0 0 0 100px
-		width: 108px
-		height: 60px
+		margin-left: rem(100)
+		width: rem(108)
+		height: rem(60)
 
 .search
-	margin-top: 10px
-	padding: 6px 16px
-	width: 280px
-	height: 50px
-	font-size: 18px
-	letter-spacing: 1.2px
-	border-radius: 12px
+	margin-top: rem(10)
+	padding: rem(6) rem(16)
+	width: rem(280)
+	height: rem(50)
+	font-size: rem(18)
+	letter-spacing: rem(1.2)
+	border-radius: rem(12)
 
 // main
 .recently__posts
-	padding: 50px 20px 0 20px
+	padding: rem(50) rem(20) rem(0) rem(20)
 
 .flex__news
 	display: flex
 	justify-content: space-between
 	flex-wrap: wrap
 	&-item
-		margin: 0 0 30px 0
-		width: 265px
-		height: 300px
+		margin-bottom: rem(30)
+		width: rem(265)
+		height: rem(300)
 		background: #ccc
 
 .today__posts
-	padding: 50px 20px 70px 20px
+	padding: rem(50) rem(20) rem(70) rem(20)
 
 //footer
 
 .footer
-	padding: 50px 0 60px 0
-	font-family: $tt
+	padding: rem(45) rem(0) rem(50) rem(0)
+	font-family: $t
 	background: #1E1E1E
 	z-index: 999
 	&-form__block
-		width: 440px
+		width: rem(440)
 	&__title
-		margin-bottom: 16px
+		margin-bottom: rem(14)
 		color: rgb(185, 185, 185)
 		text-transform: uppercase
-		font-family: $tt
-		font-weight: 600
 	&__text
 		display: block
 		color: rgb(247, 247, 247)
-		line-height: 36px
+		font-weight: 300
+		line-height: rem(30)
 		transition: all 0.3s ease 0s
 		&:hover
 			color: rgb(185, 185, 185)
 	&__form-input
-		margin: 24px 0 -14px 0
+		margin: rem(24) rem(0) rem(-14) rem(0)
 	input
-		padding: 6px 16px
+		padding: rem(6) rem(16)
 		width: 100%
-		height: 50px
-		font-size: 18px
-		font-family: $tt
-		letter-spacing: 1.2px
-		border-radius: 12px
+		height: rem(50)
+		font-size: rem(16)
+		font-family: $t
+		letter-spacing: rem(1.2)
+		border-radius: rem(12)
 	&__form-btn
-		margin-top: 32px
-		padding: 6px 70px
-		height: 50px
+		margin-top: rem(32)
+		padding: rem(6) rem(70)
+		height: rem(40)
 		color: #fff
-		font-size: 18px
+		font-size: rem(18)
 		font-family: $tt
 		font-weight: 600
-		letter-spacing: 1.2px
+		letter-spacing: rem(1.2)
 		background: #e0001b
-		border-radius: 12px
+		border-radius: rem(12)
 		transition: all 0.3s ease 0s
 		&:hover
 			box-shadow: 0px 0px 16px 0px rgb(16, 19, 22), inset 2px 2px 5px 0px rgba(90, 0, 0, 0.5)
