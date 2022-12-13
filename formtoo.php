@@ -64,7 +64,7 @@
 						<br>
 						<p class="text">Заполняйте анкету и приходите к нам!</p>
 						<br>
-						<form action="#" method="POST" id="form-doc" class="form">
+						<form action="#" id="form-doc" class="form">
 							<div class="form-input">
 								<label for="#firstname">Ваше имя*: </label>
 								<input type="text" class="form__input --req" name='firstname' placeholder="Имя">

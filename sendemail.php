@@ -36,7 +36,7 @@ if (trim(!empty($firstname))) {
 	$body .= '<p><strong>Имя:</strong> ' . $firstname . '</p>';
 }
 if (trim(!empty($surname))) {
-	$body .= '<p><strong>Имя:</strong> ' . $surname . '</p>';
+	$body .= '<p><strong>Фамилия:</strong> ' . $surname . '</p>';
 }
 if (trim(!empty($email))) {
 	$body .= '<p><strong>От:</strong> ' . $email . '</p>';
