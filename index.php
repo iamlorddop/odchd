@@ -43,6 +43,67 @@
 			</header>
 
 			<main class="main">
+				<section class='main__doc'>
+					<div class="container">
+						<h1 class="title">Недавние новости</h1>
+						<br>
+						<div class="row__card">
+							<arcticle class="card">
+								<img src="./img/01.png" class="card__img-top" alt='#'>
+								<div class="card__body">
+									<h4 class="card__title">Card title</h4>
+									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>	
+								</div>
+								<a href="" class="btn btn__ptimary"></a>
+							</arcticle>
+
+							<arcticle class="card">
+								<img src="./img/01.png" class="card__img-top" alt='#'>
+								<div class="card__body">
+									<h4 class="card__title">Card title</h4>
+									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+								</div>
+								<a href="" class="btn btn__ptimary"></a>
+							</arcticle>
+
+							<arcticle class="card">
+								<img src="./img/01.png" class="card__img-top" alt='#'>
+								<div class="card__body">
+									<h4 class="card__title">Card title</h4>
+									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+								</div>
+								<a href="" class="btn btn__ptimary"></a>
+							</arcticle>
+
+							<arcticle class="card">
+								<img src="./img/01.png" class="card__img-top" alt='#'>
+								<div class="card__body">
+									<h4 class="card__title">Card title</h4>
+									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+								</div>
+								<a href="" class="btn btn__ptimary"></a>
+							</arcticle>
+
+							<arcticle class="card">
+								<img src="./img/01.png" class="card__img-top" alt='#'>
+								<div class="card__body">
+									<h4 class="card__title">Card title</h4>
+									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+								</div>
+								<a href="" class="btn btn__ptimary"></a>
+							</arcticle>
+
+							<arcticle class="card">
+								<img src="./img/01.png" class="card__img-top" alt='#'>
+								<div class="card__body">
+									<h4 class="card__title">Card title</h4>
+									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+								</div>
+								<a href="" class="btn btn__ptimary"></a>
+							</arcticle>
+						</div>
+					</div>
+				</section>
 			</main>
 
 		</div>
