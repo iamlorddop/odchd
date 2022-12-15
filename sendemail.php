@@ -28,9 +28,23 @@ $mail->Subject = $theme;
 // letter's body
 $body = '<h1>Данные обращения:</h1>';
 
-$firstname = $_POST["firstname"];
-$surname = $_POST["surname"];
-$email = $_POST["email"];
+if(isset($_POST["firstname"])){
+	$firstname = $_POST["firstname"];
+}else{
+	$firstname = "default firstname";
+}
+
+if(isset($_POST["surname"])){
+	$surname = $_POST["surname"];
+}else{
+	$surname = "default surname";
+}
+
+if(isset($_POST["email"])){
+	$email = $_POST["email"];
+}else{
+	$email = "default email";
+}
 
 if (trim(!empty($firstname))) {
 	$body .= '<p><strong>Имя:</strong> ' . $firstname . '</p>';
