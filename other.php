@@ -44,7 +44,7 @@
 			</header>
 
 			<main class="main">
-			<section class="main__doc">
+				<section class="main__doc">
 					<div class="container">
 						<div class="main__contact">
 							<h2 class="title">Читайте нас в телеграме</h2>

@@ -49,6 +49,15 @@
 						<h1 class="title">Наши достижения</h1>
 					</div>
 				</section>
+				
+				<section class="main__doc">
+					<div class="container">
+						<div class="main__contact">
+							<h2 class="title">Читайте нас в телеграме</h2>
+							<a class='main__contact-linkimg' href="https://t.me/odchd"><img src="./img/01.svg" alt="telegram"></a>
+						</div>
+					</div>
+				</section>
 			</main>
 
 		</div>

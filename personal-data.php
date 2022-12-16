@@ -70,6 +70,15 @@
 						<p class="text">Данные, которые мы получаем от вас, мы используем только в соответствии с принципами обработки данных, указанными в этом документе.</p>
 					</div>
 				</section>
+
+				<section class="main__doc">
+					<div class="container">
+						<div class="main__contact">
+							<h2 class="title">Читайте нас в телеграме</h2>
+							<a class='main__contact-linkimg' href="https://t.me/odchd"><img src="./img/01.svg" alt="telegram"></a>
+						</div>
+					</div>
+				</section>
 			</main>
 
 		</div>

@@ -364,6 +364,13 @@ body {
   width: 7.75rem;
 }
 
+.main__abouto-img {
+  margin: 0 auto;
+  display: block;
+  width: 35rem;
+  height: 35rem;
+}
+
 .row__card {
   display: grid;
   grid-template-rows: repeat(auto-fit);

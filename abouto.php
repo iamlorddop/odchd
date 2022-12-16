@@ -46,7 +46,18 @@
 					<div class="container">
 						<h1 class="title">О движении</h1>
 						<br>
+						<img class='main__abouto-img' src="./img/02.png" alt="">
+						<br>
 						<p class="text">ОДЧД — это общественное движение «Чистое дело», деятельность которого направлена на то, чтобы сделать улицы России чистыми и выступает за защиту окружающей среды.</p>
+					</div>
+				</section>
+
+				<section class="main__doc">
+					<div class="container">
+						<div class="main__contact">
+							<h2 class="title">Читайте нас в телеграме</h2>
+							<a class='main__contact-linkimg' href="https://t.me/odchd"><img src="./img/01.svg" alt="telegram"></a>
+						</div>
 					</div>
 				</section>
 			</main>
