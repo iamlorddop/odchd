@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="shortcut icon" href="./img/01.ico" type="image/x-icon">
-	<title>ОДЧД</title>
+	<title>ОДЧД | Новости</title>
 </head>
 
 <body>
@@ -32,8 +32,8 @@
 
 					<div class="row">
 						<div class="menu">
-							<a href="./index.php" class="menu__item menu__item--selected">Главная</a>
-							<a href="./news.php" class="menu__item">Новости</a>
+							<a href="./index.php" class="menu__item">Главная</a>
+							<a href="./news.php" class="menu__item menu__item--selected">Новости</a>
 							<a href="./other.php" class="menu__item">Материалы</a>
 							<a href="./event.php" class="menu__item">События</a>
 							<a href="./formtoo.php" class="menu__item">Стать участником</a>
@@ -46,11 +46,6 @@
 			</header>
 
 			<main class="main">
-				<section class="main__title">
-					<div class="container">
-						<h1 class="title">Недавние новости</h1>
-					</div>
-				</section>
 				<section class='main__doc'>
 					<div class="container">
 						<div class="row__card">
@@ -90,77 +85,6 @@
 									<h4 class="card__title">Arcticle title</h4>
 									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 									<p class="card__data"><span>8.11.2022</span></p>
-								</div>
-								<a href="" class="btn btn__ptimary"></a>
-							</arcticle>
-
-							<arcticle class="card">
-								<img src="./img/01.png" class="card__img-top" alt='#'>
-								<div class="card__body">
-									<h4 class="card__title">Arcticle title</h4>
-									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-									<time class="card__data" pubdate>8.11.2022</time>
-								</div>
-								<a href="" class="btn btn__ptimary"></a>
-							</arcticle>
-
-							<arcticle class="card">
-								<img src="./img/01.png" class="card__img-top" alt='#'>
-								<div class="card__body">
-									<h4 class="card__title">Arcticle title</h4>
-									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-									<time class="card__data" pubdate>8.11.2022</time>
-								</div>
-								<a href="" class="btn btn__ptimary"></a>
-							</arcticle>
-						</div>
-					</div>
-				</section>
-
-				<section class="main__title">
-					<div class="container">
-						<h1 class="title">Наши материалы</h1>
-					</div>
-				</section>
-				<section class='main__doc'>
-					<div class="container">
-						<div class="row__card">
-							<arcticle class="card">
-								<img src="https://telegra.ph/file/64180521407a0f8a77a13.png" class="card__img-top" alt='#'>
-								<div class="card__body">
-									<h4 class="card__title">Arcticle title</h4>
-									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-									<time class="card__data" pubdate>8.11.2022</time>
-								</div>
-								<a href="" class="btn btn__ptimary"></a>
-							</arcticle>
-
-							<arcticle class="card">
-								<img src="https://telegra.ph/file/1fe08773632b4c2e5e1d9.png" class="card__img-top" alt='#'>
-								<div class="card__body">
-									<h4 class="card__title">Arcticle title</h4>
-									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-									<time class="card__data" pubdate>8.11.2022</time>
-								</div>
-								<a href="" class="btn btn__ptimary"></a>
-							</arcticle>
-
-							<arcticle class="card">
-								<img src="./img/01.png" class="card__img-top" alt='#'>
-								<div class="card__body">
-									<h4 class="card__title">Card title</h4>
-									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-									<time class="card__data" pubdate>8.11.2022</time>
-								</div>
-								<a href="" class="btn btn__ptimary"></a>
-							</arcticle>
-
-							<arcticle class="card">
-								<img src="./img/01.png" class="card__img-top" alt='#'>
-								<div class="card__body">
-									<h4 class="card__title">Arcticle title</h4>
-									<p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-									<time class="card__data" pubdate>8.11.2022</time>
 								</div>
 								<a href="" class="btn btn__ptimary"></a>
 							</arcticle>

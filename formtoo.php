@@ -31,6 +31,7 @@
 					<div class="row">
 						<div class="menu">
 						  <a href="./index.php" class="menu__item">Главная</a>
+						  <a href="./news.php" class="menu__item">Новости</a>
 						  <a href="./other.php" class="menu__item">Материалы</a>
 						  <a href="./event.php" class="menu__item">События</a>
 						  <a href="./formtoo.php" class="menu__item menu__item--selected">Стать участником</a>
