@@ -24,9 +24,9 @@
 			</div>
 			<header class="header">
 				<div class="header__flex">
-					<div class="header__logo">
+					<a href='./index.php' class="header__logo">
 						<img src="./img/header/01.svg" alt="">
-					</div>
+					</a>
 
 					<div class="row">
 						<div class="menu">
@@ -38,8 +38,11 @@
 						  
 						  <div class="menu__hover"></div>
 						</div>
-					 </div>
-					<input type="search" placeholder="Поиск" class="search header__search">
+					</div>
+					<form class="search">
+						<input type="search" placeholder="Поиск" id='search__input' class="search__input header__search">
+						<button type='submit' class='search__button'><img src="./img/header/02.svg" alt=""></button>
+					</form>
 				</div>
 			</header>
 

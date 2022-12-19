@@ -49,6 +49,16 @@ function onHoverMenuItem(element) {
   colorHover.style.color = '#fff';
 };
 
+/* ------------------ serch menu ------------------ */
+const search = document.querySelector('.search__input');
+const modalSearchBg = document.querySelector('.modal__search-bg');
+const modalSearch = document.querySelector('.modal__search');
+
+search.oninput = () => {
+  console.log('search.value')
+  modalSearch.classList.toggle('is-show-bg')
+}
+
 /* ------------------ footer form ------------------ */
 
 document.addEventListener('DOMContentLoaded', function(){
